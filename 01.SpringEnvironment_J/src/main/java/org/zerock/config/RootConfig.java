@@ -26,10 +26,11 @@ public class RootConfig
 //		hikariConfig.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:XE");
 
 		hikariConfig.setDriverClassName("net.sf.log4jdbc.sql.jdbcapi.DriverSpy");
-		hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
+//		hikariConfig.setJdbcUrl("jdbc:log4jdbc:oracle:thin:@localhost:1521:XE");
+		hikariConfig.setJdbcUrl("jdbc:log4jdbc:mariadb://221.149.48.232:3306/downdan");
 
-		hikariConfig.setUsername("book_ex");
-		hikariConfig.setPassword("book_ex");
+		hikariConfig.setUsername("downdan");
+		hikariConfig.setPassword("Untab12#$12");
 
 		HikariDataSource dataSource = new HikariDataSource(hikariConfig);
 
