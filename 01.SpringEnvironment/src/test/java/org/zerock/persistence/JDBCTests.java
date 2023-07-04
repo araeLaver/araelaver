@@ -43,7 +43,7 @@ public class JDBCTests
 //		jdbc:postgresql://{host}[:{port}]/[{database}]
 		{
 			log.info(con);
-			log.info("====");
+			log.info("======");
 		}
 		catch (Exception e)
 		{
