@@ -38,7 +38,7 @@ public class SampleController
 	//		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 	//		binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
 	//	}
-
+//
 	@RequestMapping("")
 	public void basic()
 	{
