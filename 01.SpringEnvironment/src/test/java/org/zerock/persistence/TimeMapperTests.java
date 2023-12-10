@@ -20,21 +20,21 @@ public class TimeMapperTests
 	@Setter(onMethod_ = @Autowired)
 	private TimeMapper timeMapper;
 
-//	@Test
-//	public void testGetTime()
-//	{
-//		log.info("getTime1");
-//		log.info(timeMapper.getClass().getName());
-//		log.info(timeMapper.getTime());
-//	}
-
 	@Test
-	public void tetGetTime2()
+	public void testGetTime()
 	{
-		log.info("getTime2");
-		log.info(timeMapper.getTime2());
-		log.info("@@@@@");
-
+		log.info("getTime1");
+		log.info(timeMapper.getClass().getName());
+		log.info(timeMapper.getTime());
 	}
+
+//	@Test
+//	public void tetGetTime2()
+//	{
+//		log.info("getTime2");
+//		log.info(timeMapper.getTime2());
+//		log.info("@@@@@");
+//
+//	}
 
 }

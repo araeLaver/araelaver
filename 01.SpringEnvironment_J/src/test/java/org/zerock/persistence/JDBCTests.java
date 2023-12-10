@@ -16,7 +16,8 @@ public class JDBCTests
 	{
 		try
 		{
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			// Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName("org.mariadb.jdbc.Driver");
 		}
 		catch (Exception e)
 		{
@@ -27,7 +28,8 @@ public class JDBCTests
 	@Test
 	public void testConnection()
 	{
-		try (Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "book_ex", "book_ex"))
+		// try (Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "book_ex", "book_ex"))
+		try (Connection con = DriverManager.getConnection("jdbc:mariadb://221.149.48.232:3306/downdan", "downdan", "Untab12#$12"))
 		{
 			log.info(con);
 			log.info("====");

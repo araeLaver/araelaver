@@ -19,7 +19,7 @@ import lombok.extern.log4j.Log4j;
 public class HotelTests
 {
 	@Setter(onMethod_ = { @Autowired })
-	private SampleHotel hotel;  
+	private SampleHotel hotel;
 
 	@Test
 	public void testExist()
@@ -28,7 +28,7 @@ public class HotelTests
 
 		log.info(hotel);
 		log.info("==================================");
-		log.info("----------------------------------");
+		log.info("@@--------------------------------");
 		log.info("==================================");
 		log.info(hotel.getChef());
 	}

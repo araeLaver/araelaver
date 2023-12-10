@@ -39,7 +39,7 @@ public class DataSourceTests
 		{
 			log.info(session);
 			log.info(con);
-			log.info("@@@@@@@");
+			log.info("11@@@@@@@");
 		}
 		catch (Exception e)
 		{

@@ -9,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
 @Component
+//@Data
 @ToString
 @Getter
 @RequiredArgsConstructor	// @NonNull 이나 final이 붙은 인스턴스 변수에 대한 생성자를 만들어 낸다.
