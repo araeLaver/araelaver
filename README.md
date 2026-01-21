@@ -1,4 +1,4 @@
-# Hi there, I'm Daown Kim 
+# Hi there, I'm Down Kim 
 
 ## Senior Backend Engineer
 🔹 years of backend development experience  
